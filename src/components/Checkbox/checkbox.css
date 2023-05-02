@@ -1,0 +1,42 @@
+﻿.checkbox{
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #FEBC10;
+}
+
+.checkbox__alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+
+.checkbox__text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4E4E4E;
+}
+
+input[type="radio"]:checked {
+    background: #E49700;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+input[type="radio"] {
+    appearance: none;
+    margin: 0;
+    top: 4px;
+    font: inherit;
+    color: #E49700;
+    width: 1.1em;
+    height: 1.1em;
+    border: 0.10em solid #E49700;
+    border-radius: 100%;
+    cursor: pointer;
+    place-content: center;
+}

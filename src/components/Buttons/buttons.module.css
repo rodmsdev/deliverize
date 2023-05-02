@@ -1,0 +1,69 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.button__counter__alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button__counterLessSign__enabled{
+    height: 2px;
+    width: 14px;
+    color: #ED3237;
+}
+
+.button__counterLessSign__disabled{
+    height: 2px;
+    width: 14px;
+    color: #AEB6C1;
+}
+
+.button_counterMoreSign__enabled{
+    width: 14px;
+    height: 14px;
+    color: #ED3237;
+}
+
+.button_counterMoreSign__disabled {
+    width: 14px;
+    height: 14px;
+    color: #ED3237;
+}
+
+.button_counterContainer {
+    box-sizing: border-box;
+    width: 5.56rem;
+    height: 2rem;
+    right: 8px;
+    top: calc(50% - 32px/2 - 1.5px);
+    background: #FFFFFF;
+    border: 1px solid #F09035;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.button_counterItemContainer {
+    position: relative;
+    width: 8.75rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #F09035;
+    margin-right: 15px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.button__addition{
+    Width:13.68rem;
+    height:2.5rem;
+    background: #F09035;
+    border-radius: 4px;
+}

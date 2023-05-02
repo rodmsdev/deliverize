@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    width: 597px;
+    height: 19.625rem;
+}
+
+.item__title {
+    width: 33rem;
+    height: 5.725rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+}
+
+.item__description {
+    font-family: 'Roboto', sans-serif;
+    width: 37.5rem;
+    height: 40.625rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #4E4E4E;
+}
+
+.item__valor__promocao {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    color: #DC6E05;
+}
+
+
+.item__valor__normal {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    
+
+    color: #4E4E4E;
+}
+
+.item__values__alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item__productImage {
+    width: 37.5rem;
+    height: 24.25rem;
+}
+
+
+@media(max-width: 800px){
+    .item__productImage {
+        width: 21.45rem;
+        height: 8.2rem;
+    }
+    
+    .item__productImage img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .item__description{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        color: #4E4E4E;
+        width: 100%;
+        height: 4.875rem;
+    }
+
+    .item {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 20rem;
+        border: none;
+        margin-bottom: 16px;
+    }
+
+    .item__title {
+        width: 100%;
+        height: 2.375rem;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 1rem;
+        color: #4E4E4E;
+    }
+    
+    .item__valor__promocao {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.88rem;
+        line-height: 1rem;
+        
+        align-items: start;
+
+        color: #DC6E05;
+    }
+
+
+    .item__valor__normal {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.88rem;
+        line-height: 1rem;
+
+        display: flex;
+        align-items: center;
+        text-decoration-line: line-through;
+
+
+        color: #4E4E4E;
+    }
+}

@@ -1,0 +1,59 @@
+
+
+.menu__buttons__alignment {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.menu__ingredients {
+    overflow-y: auto;
+}
+
+.menu__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 21px;
+    width: 27.43rem;
+    height: 41.37rem;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.menu_counterButton {
+    width: 8.75rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #F09035;
+    border-radius: 4px;
+}
+
+
+@media(max-width: 800px) {
+    .menu__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+        border: none;
+        height: 39rem;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .menu__ingredients {
+        overflow: visible;
+    }
+}

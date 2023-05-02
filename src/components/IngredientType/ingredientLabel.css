@@ -1,0 +1,42 @@
+﻿
+
+.ingredientLabel__container {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 55px;
+    background: rgba(253, 215, 14, 0.2);
+    padding-left: 16px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.ingredientLabel__text {
+    width: 343px;
+    height: 23px;
+    left: 16px;
+    top: 8px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+}
+
+.ingredientLabel__subText{
+    width: 343px;
+    height: 16px;
+    left: 16px;
+    top: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #E49700;
+}
